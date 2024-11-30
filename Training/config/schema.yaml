@@ -36,7 +36,7 @@ features_information:
   Ratings            :  float64
   Reviews            :  object
   ReleaseDate        :  datetime64[ns]
-  PopularityScore    :  float64
+  PopularityScore    :  git float64
 
 
  target_columns:

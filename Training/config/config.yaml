@@ -14,7 +14,6 @@ data validation:
 # Will make changes
 nested_cross_val:
   root_dir: artifacts/nested_cross_val
-  extracted_features:  artifacts/feature_extraction
   random_search_models_rf: artifacts/nested_cross_val/random_search_models/nmf
   model_cache_rf: artifacts/nested_cross_val/model_cache_nmf
   #random_search_models_svm: artifacts/nested_cross_val/random_search_models/svm - If required use
