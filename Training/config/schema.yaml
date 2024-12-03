@@ -1,4 +1,5 @@
 features_information:
+
   UserID             :   object
   ItemID             :   object
   Rating             :   int64
@@ -17,28 +18,28 @@ features_information:
   Location           :   object
   Income             :   object
   Occupation         :   object
-  SignUpDate         :  datetime64[ns]
-  MembershipLevel    :  object
-  BrowsingHistory    :  object
-  Device             :  object
-  TimeOfInteraction  :  object
-  SearchQueries      :  object
-  ProductName        :  object
-  Category           :  object
-  Price              :  float64
-  Discount           :  float64
-  Brand              :  object
-  Description        :  object
-  Tags               :  object
-  Color              :  object
-  Size               :  object
-  Stock              :  int64
-  Ratings            :  float64
-  Reviews            :  object
-  ReleaseDate        :  datetime64[ns]
-  PopularityScore    :  git float64
+  SignUpDate         :   datetime64[ns]
+  MembershipLevel    :   object
+  BrowsingHistory    :   object
+  Device             :   object
+  TimeOfInteraction  :   object
+  SearchQueries      :   object
+  ProductName        :   object
+  Category           :   object
+  Price              :   float64
+  Discount           :   float64
+  Brand              :   object
+  Description        :   object
+  Tags               :   object
+  Color              :   object
+  Size               :   object
+  Stock              :   int64
+  Ratings            :   float64
+  Reviews            :   object
+  ReleaseDate        :   datetime64[ns]
+  PopularityScore    :   git float64
+  
+target_columns:
 
-
- target_columns:
- target_column1: UserID
- target_column2: ItemID    
+  target_column1:UserID
+  target_column2:ItemID    

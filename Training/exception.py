@@ -1,4 +1,10 @@
 from Training.custom_logging import error_logger
+def my_func(value):
+    """Example function to demonstrate error handling."""
+    if value < 0:
+        raise DataIngestionError("Negative value provided!")
+    print(f"Processing value: {value}")
+
 
 # Custom exception handler function
 def handle_exception(error, error_type):
@@ -45,7 +51,9 @@ class ModelEvaluationError(PipelineError):
 
 
 if __name__ == "__main__":
+
     try:
-        my_func(23)
+       my_func(23)
+
     except Exception as e:
         handle_exception(e, DataIngestionError)
